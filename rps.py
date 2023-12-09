@@ -35,6 +35,7 @@ for count in range(3):
             playerPoints += 1
             print(playerPoints, "-", compPoints)
         else:
+            print("Computer: Rock")
             print("Draw, ", playerPoints, "-", compPoints)
             continue
     elif playerMove == 2:
@@ -48,6 +49,7 @@ for count in range(3):
             compPoints += 1
             print(playerPoints, "-", compPoints)
         else:
+            print("Computer: Paper")
             print("Draw", playerPoints, "-", compPoints)
             continue
     elif playerMove == 3:
@@ -61,6 +63,7 @@ for count in range(3):
             playerPoints += 1
             print(playerPoints, "-", compPoints)
         else:
+            print("Computer: Scissors")
             print("Draw", playerPoints, "-", compPoints)
             continue
     else:
